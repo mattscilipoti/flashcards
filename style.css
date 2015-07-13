@@ -22,9 +22,8 @@ main {
   width: 100%;
   font-family: 'Indie Flower', cursive;
   background: lightblue;
-  background-image: url("thebeach.jpg");
+  background-image: url("http://cdn.playbuzz.com/cdn/a27412e4-2820-4212-a0d5-1aaf4ac86206/b9620a16-45c5-45b4-b9c4-325a51fe460b.jpg");
   background-repeat: no-repeat;
-  background-position: fixed;
   border-left: 3px solid black;
   border-right: 3px solid black;
   border-bottom: 3px solid black;
@@ -42,7 +41,7 @@ p {
 
 div {
   display: inline-block;
-  background-image: url("card.jpg");
+  background-image: url("https://upload.wikimedia.org/wikipedia/en/3/3b/3x5_Notecard.jpg");
   background-repeat: no-repeat;
   color: #000;
   font-family: 'Indie Flower', cursive;
@@ -51,4 +50,17 @@ div {
   margin: 2em 2em 2em 8em;
   width: 500px;
   height: 300px;
+}
+
+footer {
+  display: none;
+  border-left: 3px solid black;
+  border-right: 3px solid black;
+  border-bottom: 3px solid black;
+  font-family: 'Indie Flower', cursive;
+  background: lightblue;
+  text-align: center;
+  color: red;
+  height: 100px;
+  width: 100%;
 }
