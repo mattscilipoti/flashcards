@@ -14,7 +14,7 @@ $(document).ready(function() {
       alert("wtf? i've never told anyone that my favorite band is tool. brb getting a restraining order.");
       $(".box1").css("display", "none");
     } else {
-      alert("you're joking, right? can you even call that music? " + answer1 + " makes some of the most repulsive-sounding 'music' i've ever heard in my life. TRY AGAIN.")
+      alert("you're joking, right? can you even call that music? " + answer1 + " makes some of the worst 'music' i've ever heard in my life. TRY AGAIN.")
       $(".music").css("display", "block");
       $(".t1").css("display", "none");
     }
