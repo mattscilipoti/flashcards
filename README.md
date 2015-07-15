@@ -1,4 +1,5 @@
 http://http://iamjustinprice.github.io/flashcards/
+Directions: Click on the pictures within each card to answer a question! If you get it right, the card is removed from the page. If you get it wrong, the answer is revealed on the flipside and you can answer the question correctly!
 
 # flashcards
 As a user, I should be able to...
