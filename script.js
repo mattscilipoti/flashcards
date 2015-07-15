@@ -100,18 +100,18 @@ $(document).ready(function() {
     }
   })
 
-  $(".asshole").hover(
+  $(".jerkStore").hover(
     function() {
-      $(".asshole").css({"border": "2px solid red"});
+      $(".jerkStore").css({"border": "2px solid red"});
     },
     function() {
-      $(".asshole").css({"border": "2px solid #000"});
+      $(".jerkStore").css({"border": "2px solid #000"});
     }
   )
-  $(".asshole").on("click", function() {
+  $(".jerkStore").on("click", function() {
     var answer6 = prompt("what's my least favorite thing?");
-      if (answer6 == "assholes") {
-      alert("whoa! how did you know i hate assholes? creep!")
+      if (answer6 == "jerks") {
+      alert("whoa! how did you know i hate jerks? creep!")
       $(".box6").css("display", "none");
       $("footer").css("display", "inline-block");
     } else {
