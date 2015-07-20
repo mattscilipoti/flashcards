@@ -19,8 +19,15 @@ $(document).ready(function() {
       $(".t1").css("display", "none");
     }
   })
-
+  // mms: this code looks awfully familiar :)
+  // mms: before our next 1:1, could you extract some of this code into a funciton, and reuse it?
   $(".shiloh").hover(
+    // mms: in the future, think about add/removing classes to achieve the design you want.
+    // mms:  e.g. You could use an 'active' class.
+    // mms: Combine this with a css selector that all cards use
+    // mms: and all this code goes into your css file. It handles the switching.
+    // mms: .card { "border": "2px solid #000" }
+    // mms: .card::hover { "border": "2px solid lightblue" }
     function() {
       $(".shiloh").css({"border": "2px solid lightblue"});
     },
@@ -28,6 +35,15 @@ $(document).ready(function() {
       $(".shiloh").css({"border": "2px solid #000"});
     }
   )
+  // mms: What happens when you want to change the functionality of this app?
+  // mms: Yikes, right?
+  // mms: One way to remove duplication, is to move the question information into a data structure
+  // mms:   data = [ {question: "what's my fav...", answer: "tool", correct_message: "wtf?...", fail_message: 'you're joking...'} ,
+  // mms:            { question: "favorite movie?", answer: "shiloh", corrrect_message: "correct, ok...", fail_message: "not even...",
+  // mms:            // and so on...
+  // mms:   ]
+  // mms: How would that change your code?
+
   $(".shiloh").on("click", function(answer2) {
     var answer2 = prompt("what is my favorite movie?");
       if (answer2 == "grandma's boy") {
